@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>황선희 포트폴리오</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f9fb;
+      color: #333;
+    }
+    header {
+      background-color: #2b6cb0;
+      color: white;
+      padding: 1rem 2rem 1.5rem 2rem;
+      position: relative;
+      text-align: center;
+    }
+    .photo-wrapper {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      text-align: center;
+      width: 240px;
+    }
+    .photo-wrapper img.photo {
+      width: 240px;
+      height: 320px;
+      border-radius: 4px;
+      object-fit: cover;
+      border: 4px solid white;
+      display: block;
+    }
+    .photo-wrapper img.spinner {
+      width: 240px;
+      height: 320px;
+      margin-top: 8px;
+      object-fit: contain;
+    }
+    .flag {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 200px;
+      height: 150px;
+    }
+    nav {
+      background-color: #e2e8f0;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #2b6cb0;
+      font-weight: bold;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      border-bottom: 2px solid #cbd5e0;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- 왼쪽: 호랑이 + 바람개비 (동일 크기) -->
+    <div class="photo-wrapper">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg" alt="증명사진" class="photo" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Animated_pinwheel.gif" alt="회전 바람개비" class="spinner" />
+    </div>
+
+    <!-- 오른쪽: 태극기 -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg" alt="태극기" class="flag" />
+
+    <h1>황선희 교수님의 포트폴리오</h1>
+    <p>컴퓨터소프트웨어공학과 교수 | 컴퓨터과학 박사</p>
+  </header>
+
+  <nav>
+    <a href="#about">소개</a>
+    <a href="#projects">프로젝트</a>
+    <a href="#resume">이력</a>
+    <a href="#contact">연락처</a>
+  </nav>
+
+  <section id="about">
+    <h2>👩‍🏫 소개</h2>
+    <p>내 이름은 <strong>황선희(Sunhee Hwang)</strong>이야.</p>
+    <p>현재 직업은 <strong>동양미래대학교 컴퓨터소프트웨어공학과 교수</strong>고,</p>
+    <p>2021년 <strong>연세대학교 컴퓨터과학과</strong>에서 <strong>박사학위</strong>를 수여했어.</p>
+    <p>이력은 아래 항목에서 확인할 수 있어.</p>
+  </section>
+
+  <section id="projects">
+    <h2>🛠 프로젝트</h2>
+    <ul>
+      <li><strong>스마트 IoT 교육 플랫폼 개발</strong> – 센서 기반 학습 콘텐츠 설계 및 실습 환경 구축</li>
+      <li><strong>AI 기반 자기주도 학습 콘텐츠 연구</strong> – 생성형 AI를 활용한 교수법 개발</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>📄 이력</h2>
+    <ul>
+      <li>현) 동양미래대학교 컴퓨터소프트웨어공학과 교수</li>
+      <li>2021년 연세대학교 컴퓨터과학과 박사 수여</li>
+      <li>컴퓨터과학 및 소프트웨어공학 관련 연구 및 교육 다수</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>📬 연락처</h2>
+    <p>이메일: sunheehwang@example.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/sunheehwang" target="_blank">linkedin.com/in/sunheehwang</a></p>
+  </section>
+
+  <footer>
+    ⓒ 2025 황선희. 모든 권리 보유.
+  </footer>
+</body>
+</html>
